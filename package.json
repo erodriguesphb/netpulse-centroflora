@@ -1,0 +1,7 @@
+{
+  "name": "netpulse",
+  "version": "1.0.0",
+  "description": "NetPulse - Monitor de Rede Centroflora",
+  "main": "server.js",
+  "dependencies": {}
+}

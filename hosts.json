@@ -1,0 +1,191 @@
+[
+  {
+    "name": "PNB-AD",
+    "addr": "192.168.40.13",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 10000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "FIREWALL",
+    "addr": "192.168.40.5",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "SW-CORE",
+    "addr": "192.168.40.1",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "SW-ADMINISTRATIVO",
+    "addr": "192.168.40.40",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "SW-INDUSTRIAL",
+    "addr": "192.168.40.41",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "SW-ATROPINA",
+    "addr": "192.168.40.42",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "INTERNET",
+    "addr": "177.10.252.66",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "FILESERVER",
+    "addr": "192.168.40.11",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "NAS-SERVER",
+    "addr": "192.168.40.70",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "AP-ADM",
+    "addr": "192.168.40.88",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "AP-MANUTENCÃO",
+    "addr": "192.168.40.90",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "AP-AUDITORIO",
+    "addr": "192.168.40.87",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "AP-LAB",
+    "addr": "192.168.40.91",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "AP-ARUBA SLTI",
+    "addr": "192.168.40.127",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "PRINT-ADM",
+    "addr": "192.168.40.56",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "PRINT-LAB",
+    "addr": "192.168.40.53",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "PRINT-MANUT",
+    "addr": "192.168.40.59",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "PRINT-RH",
+    "addr": "192.168.40.57",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "PRINT-COLOR",
+    "addr": "192.168.40.54",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "PONTO",
+    "addr": "192.168.40.60",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  },
+  {
+    "name": "IPHONE 16",
+    "addr": "192.168.40.123",
+    "probeType": "ICMP",
+    "port": 80,
+    "interval": 2000,
+    "warnMs": 150,
+    "paused": false
+  }
+]
