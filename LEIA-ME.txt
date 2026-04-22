@@ -1,0 +1,73 @@
+============================================
+  NetPulse - Monitor de Rede v3.1
+  Grupo Centroflora
+============================================
+
+COMO USAR:
+
+1. Extraia esta pasta em qualquer lugar
+   Sugestao: C:\NetPulse\
+
+2. Clique DUPLO em "NetPulse.bat"
+   - Uma janela preta do terminal vai abrir
+   - MINIMIZE essa janela (nao feche!)
+   - Aguarde alguns segundos
+   - O navegador abre automaticamente em http://localhost:8080
+
+3. Para PARAR o servidor:
+   - Clique na janela preta do terminal
+   - Pressione qualquer tecla
+   (ou feche a janela diretamente)
+
+REQUISITO: Node.js instalado
+   Baixe em: https://nodejs.org (versao LTS)
+
+--------------------------------------------
+
+FILIAIS MONITORADAS (hosts.json):
+- Parnaiba - PI    (23 hosts configurados)
+- Botucatu - SP    ( 4 hosts configurados)
+- Campinas - SP    ( 4 hosts configurados)
+- Barueri - SP     ( 2 hosts configurados)
+
+Para adicionar mais filiais ou hosts, use o painel
+"Adicionar Host" dentro do sistema.
+
+--------------------------------------------
+
+FUNCIONALIDADES:
+
+- Ping ICMP, TCP Port Check e DNS Lookup em tempo real
+- Cards com status colorido agrupados por filial
+- Suporte a multiplas filiais com abas no topo
+- Botao de edicao (lapiszinho) em cada card para
+  editar nome, IP e tipo de probe
+- Botao de Pause/Resume por host individual
+- Alertas sonoros configuráveis (menu Configuracoes)
+- Botao Desativar/Ativar para parar a coleta de alertas
+  sem apagar o historico existente
+- Intervalo de ping configuravel por host (5s a 60s)
+  via slider no menu Configuracoes
+- Traceroute por host (menu Ferramentas)
+- Hosts salvos automaticamente em hosts.json
+
+--------------------------------------------
+
+NOTAS:
+
+- hosts.json e salvo automaticamente ao adicionar,
+  editar ou remover qualquer host
+- Sons de alerta: escolha arquivos .wav ou .mp3
+  no menu Configuracoes
+- Cada host pertence a uma filial (campo "filial"
+  no hosts.json)
+- O servidor roda localmente na porta 8080
+
+--------------------------------------------
+
+HISTORICO DE VERSOES:
+  v3.1 - Suporte a multiplas filiais (Botucatu, Campinas, Barueri)
+         Alertas configuráveis, intervalo de ping ajustavel
+  v3.0 - Versao inicial Parnaiba-PI
+
+============================================
